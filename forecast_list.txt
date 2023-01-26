@@ -1,0 +1,2 @@
+"IM-10292020163829.csv","Z:\Projects\WNA\Forecast\Load\Forecast\IM-10292020163829.csv"
+"WNA-10292020163829.csv","Z:\Projects\WNA\Forecast\Load\Forecast\WNA-10292020163829.csv"

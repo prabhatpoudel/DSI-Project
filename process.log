@@ -1,0 +1,259 @@
+------------------------------------------------------------------------------ 
+Batch Load Started at Thu 10/29/2020 16:28:55.74 
+ 
+removing existing file list 
+generating forecast_list.txt file 
+Loading File: forecast_list.txt ... 
+Running: sqlldr ifsapp/ifsapp@ifsapp8sp1_race ifsapp8sp1_race.ctl 
+Appending SQL Loader file to Process log
+        -----------------SQL LOADER LOG STARTED----------------- 
+
+SQL*Loader: Release 12.1.0.2.0 - Production on Thu Oct 29 16:28:56 2020
+
+Copyright (c) 1982, 2014, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   load_forecast_file.ctl
+Data File:      forecast_list.txt
+  Bad File:     forecast_list.bad
+  Discard File: forecast_list.dsc 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     1 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table "ESI_FORECAST_FILES_TAB", loaded when FILE_NAME != 0X20(character ' ')
+Insert option in effect for this table: APPEND
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+FILE_NAME                           FIRST   100   ,  O(") CHARACTER            
+CLOB_FILENAME                        NEXT   100   ,  O(") CHARACTER            
+  (FILLER FIELD)
+FILE_DATA                         DERIVED     *  EOF      CHARACTER            
+    Dynamic LOBFILE.  Filename in field CLOB_FILENAME
+
+
+Table "ESI_FORECAST_FILES_TAB":
+  1 Row successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                    204 bytes(1 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:             1
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Thu Oct 29 16:28:56 2020
+Run ended on Thu Oct 29 16:29:04 2020
+
+Elapsed time was:     00:00:08.43
+CPU time was:         00:00:00.08
+        -----------------SQL LOADER LOG ENDS----------------- 
+Moving all the file listed on forecast_list.txt to Backup Folder 
+"test_11-10-29-2020_@_16h28m55s.csv" 
+Forecast File "test_11-10-29-2020_@_16h28m55s.csv" Moved to Processed. 
+------------------------------------------------------------------------------ 
+Batch Load Started at Thu 10/29/2020 16:30:03.40 
+ 
+removing existing file list 
+generating forecast_list.txt file 
+Loading File: forecast_list.txt ... 
+Running: sqlldr ifsapp/ifsapp@ifsapp8sp1_race ifsapp8sp1_race.ctl 
+Appending SQL Loader file to Process log
+        -----------------SQL LOADER LOG STARTED----------------- 
+
+SQL*Loader: Release 12.1.0.2.0 - Production on Thu Oct 29 16:30:03 2020
+
+Copyright (c) 1982, 2014, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   load_forecast_file.ctl
+Data File:      forecast_list.txt
+  Bad File:     forecast_list.bad
+  Discard File: forecast_list.dsc 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     1 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table "ESI_FORECAST_FILES_TAB", loaded when FILE_NAME != 0X20(character ' ')
+Insert option in effect for this table: APPEND
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+FILE_NAME                           FIRST   100   ,  O(") CHARACTER            
+CLOB_FILENAME                        NEXT   100   ,  O(") CHARACTER            
+  (FILLER FIELD)
+FILE_DATA                         DERIVED     *  EOF      CHARACTER            
+    Dynamic LOBFILE.  Filename in field CLOB_FILENAME
+
+
+Table "ESI_FORECAST_FILES_TAB":
+  1 Row successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                    204 bytes(1 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:             1
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Thu Oct 29 16:30:03 2020
+Run ended on Thu Oct 29 16:30:06 2020
+
+Elapsed time was:     00:00:02.72
+CPU time was:         00:00:00.04
+        -----------------SQL LOADER LOG ENDS----------------- 
+Moving all the file listed on forecast_list.txt to Backup Folder 
+"test_11-10-29-2020163003.csv" 
+Forecast File "test_11-10-29-2020163003.csv" Moved to Processed. 
+------------------------------------------------------------------------------ 
+Batch Load Started at Thu 10/29/2020 16:32:28.60 
+ 
+removing existing file list 
+generating forecast_list.txt file 
+Loading File: forecast_list.txt ... 
+Running: sqlldr ifsapp/ifsapp@ifsapp8sp1_race ifsapp8sp1_race.ctl 
+Appending SQL Loader file to Process log
+        -----------------SQL LOADER LOG STARTED----------------- 
+
+SQL*Loader: Release 12.1.0.2.0 - Production on Thu Oct 29 16:32:29 2020
+
+Copyright (c) 1982, 2014, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   load_forecast_file.ctl
+Data File:      forecast_list.txt
+  Bad File:     forecast_list.bad
+  Discard File: forecast_list.dsc 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     1 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table "ESI_FORECAST_FILES_TAB", loaded when FILE_NAME != 0X20(character ' ')
+Insert option in effect for this table: APPEND
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+FILE_NAME                           FIRST   100   ,  O(") CHARACTER            
+CLOB_FILENAME                        NEXT   100   ,  O(") CHARACTER            
+  (FILLER FIELD)
+FILE_DATA                         DERIVED     *  EOF      CHARACTER            
+    Dynamic LOBFILE.  Filename in field CLOB_FILENAME
+
+
+Table "ESI_FORECAST_FILES_TAB":
+  2 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                    204 bytes(1 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:             2
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Thu Oct 29 16:32:29 2020
+Run ended on Thu Oct 29 16:32:33 2020
+
+Elapsed time was:     00:00:04.74
+CPU time was:         00:00:00.16
+        -----------------SQL LOADER LOG ENDS----------------- 
+Moving all the file listed on forecast_list.txt to Backup Folder 
+"IM-10292020163228.csv" 
+Forecast File "IM-10292020163228.csv" Moved to Processed. 
+"WNA-10292020163228.csv" 
+Forecast File "WNA-10292020163228.csv" Moved to Processed. 
+------------------------------------------------------------------------------ 
+Batch Load Started at Thu 10/29/2020 16:38:28.84 
+ 
+removing existing file list 
+Copying IM and WNA file from wna-ch3-pptm01\TM1_Import\IFS EXPORT to Forecast Directory 
+Renaming IM and WNA file on Forecast directory to todays timestamp 
+Removing files readonly attribute 
+generating forecast_list.txt file 
+Loading File: forecast_list.txt ... 
+Running: sqlldr ifsapp/ifsapp@ifsapp8sp1_race ifsapp8sp1_race.ctl 
+Appending SQL Loader file to Process log
+        -----------------SQL LOADER LOG STARTED----------------- 
+
+SQL*Loader: Release 12.1.0.2.0 - Production on Thu Oct 29 16:38:29 2020
+
+Copyright (c) 1982, 2014, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   load_forecast_file.ctl
+Data File:      forecast_list.txt
+  Bad File:     forecast_list.bad
+  Discard File: forecast_list.dsc 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     1 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table "ESI_FORECAST_FILES_TAB", loaded when FILE_NAME != 0X20(character ' ')
+Insert option in effect for this table: APPEND
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+FILE_NAME                           FIRST   100   ,  O(") CHARACTER            
+CLOB_FILENAME                        NEXT   100   ,  O(") CHARACTER            
+  (FILLER FIELD)
+FILE_DATA                         DERIVED     *  EOF      CHARACTER            
+    Dynamic LOBFILE.  Filename in field CLOB_FILENAME
+
+
+Table "ESI_FORECAST_FILES_TAB":
+  2 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                    204 bytes(1 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:             2
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Thu Oct 29 16:38:29 2020
+Run ended on Thu Oct 29 16:38:33 2020
+
+Elapsed time was:     00:00:04.12
+CPU time was:         00:00:00.10
+        -----------------SQL LOADER LOG ENDS----------------- 
+Moving all the file listed on forecast_list.txt to Backup Folder 
+"IM-10292020163829.csv" 
+Forecast File "IM-10292020163829.csv" Moved to Processed. 
+"WNA-10292020163829.csv" 
+Forecast File "WNA-10292020163829.csv" Moved to Processed. 
